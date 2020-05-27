@@ -1,0 +1,39 @@
+.Login{
+    
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        box-shadow: 0 2px 3px rgb(221, 8, 8);
+        border: 1px solid rgb(238, 238, 238);
+        padding: 10px;
+        box-sizing: border-box;
+        
+    }
+    
+    @media (min-width:60px) {
+        .Login {
+            width:500px;
+        }
+    }
+
+    .Button {
+        background-color: #ccc;
+        border:1px solid black;
+        color: rgb(81, 8, 252);
+        outline: none;
+        cursor: pointer;
+        font: inherit;
+        padding: 10px;
+        margin: 10px;
+        font-weight: bold;
+    }
+    
+    .Input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .InputElement:focus {
+        outline: none;
+        background-color: #ccc;
+    }
